@@ -1,7 +1,8 @@
 
 //после полной загрузки дом дерева отправляем http запрос на сервер
 window.onload = function () {
-    let url = "http://localhost:3000/";
+    // let url = "http://localhost:3000/";
+    let url = "http://gumball.wickedlysmart.com/gumball/gumball.html";
     let request = new XMLHttpRequest(); 
 
     //метод передает url и указывает запрос 
